@@ -1,0 +1,96 @@
+body{
+    background-color: violet;
+    margin: 0px;
+    padding: 0;
+    height: 1000px;
+}
+
+.pai{
+    width: 300px;
+    height: 300px;
+
+}
+
+.filho{
+    width: 150px;
+    height: 150px;
+}
+
+/*estatico*/
+.p-estatico{
+    position: static;
+    background-color: green;
+}
+
+.f-estatico{
+    position: static;
+    background-color: blue;
+
+
+}
+
+/* fixed*/
+.p-fixed{
+    background-color: red;
+    position: fixed ;
+    right: 5%;
+    bottom: 0%;
+
+}
+
+.f-fixed{
+    background-color: yellow;
+}
+
+/* stick*/
+.p-stick{
+    background-color: pink;
+    position: sticky;
+    margin: 100px 0 0 100px;
+    top:0;
+    left: 0;
+
+}
+.f-stick{
+    background-color: black;
+
+}
+
+/*relativo*/
+.p-relative{
+    background-color: aqua;
+}
+
+.f-relative{
+    background-color: bisque;
+    position:relative;
+    left: 50px;
+    top: 20px;
+}
+
+/* absolute com pai static*/
+.p-absolute-estatico{
+    background-color: sandybrown;
+
+}
+
+.f-absolute-estatico{
+    background-color: rebeccapurple;
+    position: absolute;
+    top:20px;
+    left: 50px;
+}
+
+/*absolute com pai nao static */
+.p-absolute-nao-estatico{
+     background-color: darkcyan;
+     position:relative;
+     left: 15px;
+}
+
+.p-absolute-nao-estatico{
+    background-color: deeppink;
+    position:absolute;
+    top: 20px;
+    left: 50px;
+}
