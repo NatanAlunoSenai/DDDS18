@@ -1,0 +1,61 @@
+body{
+    background-color: gray;
+    height: 600px;
+}
+
+#tudo{
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quad{
+    height: 150px;
+    width: 150px;
+    /* float:left; */
+    margin: 5px;
+
+}
+
+#quad1{
+    background-color: red;
+    flex-shrink: 1;
+
+}
+
+#quad2{
+    background-color: yellow;
+    flex-grow: 0;
+
+}
+
+#quad3{
+    background-color: green;
+
+}
+
+#contanier{
+    background-color: black;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+
+#contanier2{
+    background-color: aqua;
+    display: grid;
+    height: 600px;
+    /* grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto; */
+    grid-template: 60vh  auto/ autogit 20% auto;
+    grid-gap: 10px;
+    justify-items:center;
+    align-items:center;
+    align-content: center;
+}
