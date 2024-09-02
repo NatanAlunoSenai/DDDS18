@@ -10,13 +10,15 @@
 <body>
     <div id="caixa">
         <span class="material-symbols-outlined">
-            login
+            person_add
             </span>
         <h1>LOGIN</h1>
         <form>
             <input type="text" placeholder="Usuário" id="inputUsuario" class="inputForm">
-            <input type="password" placeholder="Senha" id="inputSenha" class="inputForm">
-            <input type="submit" value="Entrar" id="inputEntrar" class="inputBotao" onclick="logar()">
+            <input type="email" placeholder="Email" id="inputEmailNovo" class="inputForm">
+            <input type="password" placeholder="Senha" id="inputSenhaNovo" class="inputForm">
+            <input type="password" placeholder="Confirme senha" id="inputSenhaConfirme" class="inputForm">
+            <input type="submit" value="Cadastrar" id="inputCadastrar" class="inputBotao" onclick="cadastrar()">
             
         </form>
         <p>Não possui conta? <a href="#"> Cadastre-se </a> </p>
