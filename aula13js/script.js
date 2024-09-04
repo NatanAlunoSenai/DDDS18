@@ -21,17 +21,20 @@ function cadastrar(){
  var emailCerto = emailValido(email)
 
  if(emailCerto){
-     if(senha === senhaConfirma){ 
+    if(senha === senhaConfirma){ 
         location.href ="index.html"
         alert("Olá" + usuario +",seja bem vindo!")
-     }
+     }else{
+        alert('As senhas não coincidem')
 
  }
- else{
-    alert('As senhas não coincidem')
+    
+ }
+else{
+    alert("Este email não é válido")
  }
 }
 
 function emailValido(email){
-    return email.include('@')
+    return email.includes('@')
 }
